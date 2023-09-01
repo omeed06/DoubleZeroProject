@@ -1,9 +1,26 @@
-import React from 'react'
+import React,{useState} from 'react'
 import { BiSearch } from "react-icons/bi";
 import Mobile_logo from "../../Asset/Images/Mobile-logo.svg"
+import Modals from '../Modals/Modals';
+import "../Modals/Modal.css"
 
 
 const Desktop_Header = () => {
+
+
+const [desktopModal,setDesktopModal]=useState(false)
+
+const openDesktopModal = () => {
+  setDesktopModal(true);
+}
+
+const closeDesktopModal = () => {
+  setDesktopModal(false);
+}
+
+
+
+
   return (
     <div className='bg-[#023D65] px-2 md:flex flex-row justify-between items-center md:px-14 py-5'>
     <div className='ml-10 pb-3 sm:ml-0 sm:pb-0 flex gap-5 flex-row items-center'>
@@ -18,7 +35,8 @@ const Desktop_Header = () => {
       <p className='text-white'>Venus</p>
       <p className='text-white'>Events</p>
       <p className='text-white'>Stories</p>
-      <button className='text-[#023D65] font-bold bg-white rounded-lg px-5 py-1'>Login</button>
+      <button onClick={openDesktopModal} className='text-[#023D65] font-bold bg-white rounded-lg px-5 py-1'>Login</button>
+      {desktopModal && <Modals open={openDesktopModal} closeModal={closeDesktopModal} />}
     </div>
   </div>
   )

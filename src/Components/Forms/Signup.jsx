@@ -1,7 +1,7 @@
 import React from 'react'
-import "../Forms/Signup.css";
 import Recaptha from "../../Asset/Images/Socialicons/recaptha.svg"
 import Location from "../../Asset/Images/Socialicons/location.svg"
+import "../Modals/Modal.css"
 
 const Signup = ({closeSignup}) => {
   return (
@@ -9,20 +9,20 @@ const Signup = ({closeSignup}) => {
     <div className='flex justify-center items-center'> 
       <h1 className='text-3xl font-bold'>Sign Up</h1>
     </div>
-    <div className='mt-16'>
+    <div className='mt-16 md:mt-5'>
       <p className='font-medium text-xl'>Full Name<span className='text-[#FF0000]'>*</span></p>
       <input type="text" className='bg-[#F5F5F5] px-5 py-2 w-96 rounded-lg outline-none ' placeholder='Enter Your Full Name' />
     </div>
-    <div className='my-3'>
+    <div className='my-3 '>
       <p className='font-medium text-xl'>Email Address<span className='text-[#FF0000]'>*</span></p>
       <input type="text" className='bg-[#F5F5F5] px-5 py-2 w-96 rounded-lg outline-none ' placeholder='Enter Email Address' />
       <p className='text-xs'>We'll use your email address to send you updates</p>
     </div>
-    <div className='my-3'>
+    <div className='my-3 '>
       <p className='font-medium text-xl'>Password<span className='text-[#FF0000]'>*</span></p>
       <input type="text" className='bg-[#F5F5F5] px-5 py-2 w-96 rounded-lg outline-none ' placeholder='Enter Password' />
     </div>
-    <div className='my-3'>
+    <div className='my-3 '>
       <p className='font-medium text-xl'>Location<span className='text-[#FF0000]'>*</span></p>
       <div className='flex items-center'>
       <img src={Location} className='absolute z-10 pl-3' />

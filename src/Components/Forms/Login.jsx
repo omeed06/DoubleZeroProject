@@ -9,7 +9,7 @@ const Login = ({openSecondModal}) => {
   return (
     <>
     
-    <div className='flex justify-center items-center py-14'>
+    <div className='flex justify-center items-center py-14 md:py-2'>
         <h2 className='text-3xl font-bold'>Login</h2>
         </div>
 
@@ -54,7 +54,7 @@ const Login = ({openSecondModal}) => {
               </div>
 
 
-              <div className='flex justify-center items-center gap-2 mt-10'>
+              <div className='flex justify-center items-center gap-2 mt-10 md:mt-2'>
                 <p className='text-xl'>Not a member yet?</p>
                 <button onClick={openSecondModal} className='underline text-xl font-bold text-[#023D65]'>Sign up</button>
               </div>
