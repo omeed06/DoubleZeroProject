@@ -1,6 +1,6 @@
-import Header from "./Components/Header/Header";
+
 import Banner from "./Components/Banner/Banner";
-import Footer from "./Components/Footer/Footer";
+
 import Bottombanner from "./Asset/Images/bottombanner.png"
 import CardCarousel from "./Components/Cards/CardCarousel";
 import EventsCard from "./Components/Cards/EventsCard";
@@ -8,14 +8,12 @@ import StoriesCard from "./Components/Cards/StoriesCard";
 import "./App.css"
 
 
+
 function App() {
-
-
   return (
-    <div className="App">
-      <Header />
+    <>
+      {/* <Header /> */}
       <Banner />
-
       <div className="">
         <p className="text-xl my-5 md:text-6xl md:my-10 text-[#404040] font-semibold text-center" style={{fontFamily: "Krona One"}}>Events and Experiences</p>
         <div className="m-auto w-20 my-5 md:w-36 md:my-10 border-[#023D65] border-b-[10px] rounded-xl "></div>
@@ -36,8 +34,9 @@ function App() {
         </div>
       </div>
 
-<Footer />
-    </div>
+      {/* <Footer /> */}
+
+    </>
   );
 }
 
