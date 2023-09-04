@@ -5,6 +5,7 @@ import Modals from '../Modals/Modals';
 import "../Modals/Modal.css"
 
 
+
 const Desktop_Header = () => {
 
 
@@ -24,7 +25,7 @@ const closeDesktopModal = () => {
   return (
     <div className='bg-[#023D65] px-2 md:flex flex-row justify-between items-center md:px-14 py-5'>
     <div className='ml-10 pb-3 sm:ml-0 sm:pb-0 flex gap-5 flex-row items-center'>
-        <img src={Mobile_logo} style={{width: "100px"}} alt="" />
+        <a href='/'><img src={Mobile_logo} style={{width: "100px"}} alt="" /></a>
       <div className='flex items-center'>
         <BiSearch style={{color: 'white', fontSize: '20px', fontWeight: '' }} className='absolute z-10 m-2'/>
         <input type="text" className='relative bg-[#023354] px-10 py-1 w-72 rounded-lg outline-none text-white' placeholder='Search for "New Events" ' />

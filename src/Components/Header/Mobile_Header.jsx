@@ -36,7 +36,10 @@ const Mobile_Header = () => {
     
     <div className='bg-[#023D65] flex justify-between items-center px-5 py-5'>
         <CgProfile style={{color: 'white', fontSize: '30px', fontWeight: '' }}/>
+        <a href='/'>
         <img src={Mobile_logo} style={{width: "101px"}} alt="" />
+        </a>
+        
       <div className='flex justify-center items-center gap-4'>
           <div className='flex justify-center items-center'>
             <BiSearch style={{color: 'white', fontSize: '20px', fontWeight: '' }} className='absolute z-10 '/>
@@ -52,7 +55,9 @@ const Mobile_Header = () => {
 {showMenu2 && (
            <div className='bg-[#023D65] px-5 py-5'>
             <div className='flex justify-between'> 
-            <img src={Mobile_logo} style={{width: "101px"}} alt="" />
+            <a href='/'>
+             <img src={Mobile_logo} style={{width: "101px"}} alt="" />
+             </a>
             <AiOutlineMenu onClick={handleClick} style={{color: 'white', fontSize: '20px', fontWeight: '', cursor: "pointer" }}/>
             </div>
            
