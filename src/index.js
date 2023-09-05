@@ -5,6 +5,7 @@ import App from './App';
 import Header from "./Components/Header/Header";
 import Footer from "./Components/Footer/Footer";
 import AboutUs from './Components/Pages/AboutUs';
+import ContactUs from './Components/Pages/ContactUs';
 // import reportWebVitals from './reportWebVitals';
 import {
   createBrowserRouter,
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
   {
     path: "/about-us",
     element: <AboutUs />,
+  },
+  {
+    path: "/contact-us",
+    element: <ContactUs />
   }
 ]);
 

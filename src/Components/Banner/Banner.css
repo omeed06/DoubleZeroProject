@@ -1,9 +1,16 @@
-.dots {
-    z-index: 9999;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    gap: 20px;
+.dot {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: gray;
+    margin: 0 5px;
+  }
+  
+  .dot.active {
+    background-color: white;
+  }
 
+  svg.dot-icon {
+    display: none;
 }

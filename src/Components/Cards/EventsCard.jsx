@@ -6,7 +6,7 @@ const EventsCard = () => {
 
   return (
     <>
-        <div className="bg-white shadow-2xl border rounded-3xl max-w-md">
+        <div className="bg-white shadow-2xl rounded-3xl max-w-md">
           <img src={ImageCarousel} className="p-3 bg-cover"  alt="" />
           <Events />
         </div>

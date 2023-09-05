@@ -63,7 +63,11 @@ const Banner = () => {
             key={index}
             className={`dot ${index === currentIndex ? "active" : ""}`}
             onClick={() => goToSlide(index)}
-          ><BiRadioCircle size={30} color="white"/></div>
+          > <BiRadioCircle
+          size={30}
+          className={`dot-icon ${index === currentIndex ? "active" : ""}`}
+          style={{ cursor: "pointer" }} 
+        /></div>
         ))}
       </div>
       <img src={SliderLogo}  alt="" className=""/>

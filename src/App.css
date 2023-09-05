@@ -25,3 +25,9 @@
   cursor: pointer;
   z-index: 0;
 }
+.react-multi-carousel-list {
+  display: flex;
+  align-items: center;
+  overflow: visible;
+  position: relative;
+}

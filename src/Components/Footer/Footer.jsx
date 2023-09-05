@@ -19,7 +19,9 @@ const Footer = () => {
                 <p className='font-normal text-white text-sm sm:text-2xl'>About Us</p>
                 </a>
                 <div className='border-[#ffffff] border-r-[2px] h-5 sm:h-10'></div>
-                  <p className='font-normal text-white text-sm sm:text-2xl'>Contact Us</p>
+                <a href='/contact-us'>
+                <p className='font-normal text-white text-sm sm:text-2xl'>Contact Us</p>
+                </a>
                 <div className='border-[#ffffff] border-r-[2px] h-5 sm:h-10'></div>
                 <AiOutlineInstagram style={{color: 'white', fontSize: '30px'}}/>
             </div>
