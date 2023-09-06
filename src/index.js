@@ -12,6 +12,9 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import { BrowserRouter } from "react-router-dom";
+import Venues from './Components/Pages/Venues';
+import Stories from './Components/Pages/Stories';
+import Events from './Components/Pages/Events';
 
 const router = createBrowserRouter([
   {
@@ -25,6 +28,18 @@ const router = createBrowserRouter([
   {
     path: "/contact-us",
     element: <ContactUs />
+  },
+  {
+    path: "/venues",
+    element: <Venues />
+  },
+  {
+    path: "/events",
+    element: <Events />
+  },
+  {
+    path: "/stories",
+    element: <Stories />
   }
 ]);
 

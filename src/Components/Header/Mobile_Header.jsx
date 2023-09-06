@@ -62,11 +62,17 @@ const Mobile_Header = () => {
             </div>
            
            <div className='flex flex-col mt-10 gap-3'>
-            <p className='text-white'>Venus</p>
+           <a href="/venus">
+              <p className='text-white'>Venues</p>
+           </a>
             <div className=" w-full border-slate-400 border-b-[1px] rounded-xl "></div>
-            <p className='text-white'>Events</p>
+            <a href="/events">
+                <p className='text-white'>Events</p>
+            </a>
             <div className=" w-full border-slate-400 border-b-[1px] rounded-xl "></div>
-            <p className='text-white'>Stories</p>
+            <a href="/stories">
+              <p className='text-white'>Stories</p>
+            </a>
             <button onClick={openModal} className='text-[#023D65] mt-10 font-bold bg-white rounded-lg px-5 py-2'>Login</button>
             {isOpen && (<Modals open={isOpen} closeModal={closeModal} />)}
            

@@ -33,9 +33,17 @@ const closeDesktopModal = () => {
     
     </div>
     <div className='flex flex-row justify-between items-center px-10 gap-5'>
-      <p className='text-white'>Venus</p>
+      <a href="/venues">
+        <p className='text-white'>Venues</p>
+      </a>
+      <a href="/events">
       <p className='text-white'>Events</p>
+      </a>
+      <a href="/stories">
       <p className='text-white'>Stories</p>
+      </a>
+     
+     
       <button onClick={openDesktopModal} className='text-[#023D65] font-bold bg-white rounded-lg px-5 py-1'>Login</button>
       {desktopModal && <Modals open={openDesktopModal} closeModal={closeDesktopModal} />}
     </div>
