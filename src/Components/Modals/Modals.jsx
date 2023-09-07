@@ -28,9 +28,10 @@ const Modals = ({open, closeModal}) => {
             <button onClick={closeModal} className='font-bold'>{<AiOutlineClose style={{fontSize: '20px'}}/>}</button>
           </div>
         
-        {switchForm ? <Signup openSignUP={openSecondModal} closeSignup={closeSecondModal} /> : <Login openSecondModal={openSecondModal} /> }
+          {switchForm ? <Signup openSignUP={openSecondModal} closeSignup={closeSecondModal} /> : <Login openSecondModal={openSecondModal} /> }
         
       </Modal>
+
     </div>
   )
 }

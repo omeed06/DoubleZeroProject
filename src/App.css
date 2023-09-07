@@ -28,6 +28,6 @@
 .react-multi-carousel-list {
   display: flex;
   align-items: center;
-  overflow: visible;
+  overflow: hidden;
   position: relative;
 }

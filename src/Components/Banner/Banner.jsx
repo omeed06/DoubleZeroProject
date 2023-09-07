@@ -36,7 +36,7 @@ const Banner = () => {
     };
     
   return (
-    <div className="h-[400px] md:max-w-[2500px] md:h-[800px] w-full relative">
+    <div className="h-[400px] md:max-w-[3100px] md:h-[800px] w-full relative">
     <div style={{backgroundImage: `url(${Slides[currentIndex].url})`}} className="w-full h-full bg-center bg-cover px-0 md:px-56 flex justify-center items-center">
     <div className="flex flex-col gap-2 md:flex-row md:flex justify-between md:gap-80"> 
           <div className="flex flex-col items-center md:items-start max-w-lg">

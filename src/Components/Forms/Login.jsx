@@ -4,6 +4,7 @@ import {BiSolidLock} from 'react-icons/bi'
 import Google from "../../Asset/Images/Socialicons/google.svg"
 import Apple from "../../Asset/Images/Socialicons/Apple.svg"
 import Facebook from "../../Asset/Images/Socialicons/facebook.svg"
+import Buttons from '../Inputs/Buttons'
 
 const Login = ({openSecondModal}) => {
   return (
@@ -31,7 +32,7 @@ const Login = ({openSecondModal}) => {
                 <p className='text-[#1492E6] font-medium'>Forget Password</p>
             </div>
 
-            <button className='text-white mt-5 font-semibold bg-[#023D65] rounded-lg px-5 py-3 w-96'>Login</button>
+            <Buttons Name="Login"/>
 
             <div className='flex justify-around items-center gap-5'>
               <div className='w-40 border-[#023D65] border-b-[1px] rounded-xl'></div>

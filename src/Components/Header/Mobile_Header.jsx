@@ -62,7 +62,7 @@ const Mobile_Header = () => {
             </div>
            
            <div className='flex flex-col mt-10 gap-3'>
-           <a href="/venus">
+           <a href="/venues">
               <p className='text-white'>Venues</p>
            </a>
             <div className=" w-full border-slate-400 border-b-[1px] rounded-xl "></div>
