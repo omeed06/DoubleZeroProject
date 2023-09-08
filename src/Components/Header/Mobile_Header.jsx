@@ -42,7 +42,7 @@ const Mobile_Header = () => {
         
       <div className='flex justify-center items-center gap-4'>
           <div className='flex justify-center items-center'>
-            <BiSearch style={{color: 'white', fontSize: '20px', fontWeight: '' }} className='absolute z-10 '/>
+            <BiSearch style={{color: 'white', fontSize: '20px', fontWeight: '' }} className='absolute'/>
             <input type="text" className='hidden md:block relative bg-[#023354] px-10 py-1 w-72 rounded-lg outline-none text-white' placeholder='Search for "New Events" ' />
           </div>
         
